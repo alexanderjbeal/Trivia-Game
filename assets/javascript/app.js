@@ -51,7 +51,7 @@ var triviaQuestions = [{
 var gifArray = ['question1', 'question2', 'question3', 'question4', 'question5', 'question6', 'question7', 'question8', 'question9', 'question10', 'question11', 'question12', 'question13','question14','question15'];
 var currentQuestion; var correctAnswer; var incorrectAnswer; var unanswered; var seconds; var time; var answered; var userSelect;
 var messages = {
-	correct: "Swish.",
+	correct: "Correct.",
 	incorrect: "Nope.",
 	endTime: "Shot clock violation.",
 	finished: "That's game."
@@ -168,5 +168,5 @@ function scoreboard(){
 	$('#unanswered').html("Unanswered: " + unanswered);
 	$('#startOverBtn').addClass('reset');
 	$('#startOverBtn').show();
-	$('#startOverBtn').html('Start Over?');
+	$('#startOverBtn').html('Try Again?');
 }
