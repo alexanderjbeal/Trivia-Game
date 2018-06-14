@@ -45,7 +45,7 @@ button:hover, .reset:hover{
 #currentQuestion {
     width: 50%;
     float: left;
-    font-size:13px;
+    font-size:14px;
     letter-spacing: 3px;
     font-weight: bold;
     text-transform: uppercase;
@@ -64,7 +64,7 @@ button:hover, .reset:hover{
     padding: 10px;
     width: 50%;
     float: left;
-    font-size: 13px;
+    font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: 900;
@@ -93,7 +93,7 @@ h3 {
     padding: 10px;
     width: 100%;
     float: left;
-    font-size: 13px;
+    font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: 900;
@@ -107,7 +107,7 @@ h3 {
     padding: 10px;
     width: 100%;
     float: left;
-    font-size: 13px;
+    font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: 900;
@@ -119,11 +119,16 @@ h3 {
 	margin: 30px;
 }
 
-@media screen and (max-width:640px){
+@media screen and (max-width:740px){
 	.container{
 		width: 80%;
 		margin-top: 200px;
         size: 200%;
         margin: 0 auto;
-	}	
+    }
+    h2, #message, #finalMessage{
+        width: 100%;
+        font-size: 35px;
+        font-weight: 900;
+    }
 }
