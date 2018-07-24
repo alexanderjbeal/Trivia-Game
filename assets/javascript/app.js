@@ -118,7 +118,6 @@ function showCountdown(){
     $('#timeLeft').html('<h3>' + seconds + '</h3>');
 	if(seconds < 1){
         clearInterval(time);
-        seconds.toFixed(2);
 		answered = false;
 		answerPage();
 	}
